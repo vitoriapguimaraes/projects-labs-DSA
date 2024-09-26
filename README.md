@@ -10,6 +10,10 @@
     - Development of the Hangman Game Program.
     - Implemented input validation to ensure that user entries are appropriate and meet the required criteria.
 
+3. Hangman Game, version with Object Oriented Programming (version 3)
+    - Development of the Hangman Game Program.
+    - Object Oriented Programming 
+    - Implemented input validation to ensure that user entries are appropriate and meet the required criteria.
 --------------------------------------
 
 **Programas Desenvolvidos nos Cursos de Python da DSA**
@@ -22,4 +26,9 @@
 
 2. Jogo da Forca
     - Desenvolvimento do programa para jogar Forca.
+    - Inclusão de validação para os inputs do usuário, garantindo que as entradas sejam apropriadas.
+
+3. Jogo da Forca, versão com Programação Orientada a Objetos (versão 3)
+    - Desenvolvimento do programa para jogar Forca.
+    - Programação Orientada a Objetvos
     - Inclusão de validação para os inputs do usuário, garantindo que as entradas sejam apropriadas.

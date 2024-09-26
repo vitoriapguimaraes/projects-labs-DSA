@@ -1,6 +1,3 @@
-# Gostaríamos  de  propor  a  você  um  desafio. Construir  uma nova versão do Game desenvolvido
-# no Capítulo 7, mas agora apenas # usando Programação Orientada a Objetos.
-
 ### Game Development in Python ###
 
 ### Hangman Game ###
