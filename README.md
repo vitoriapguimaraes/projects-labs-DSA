@@ -14,6 +14,10 @@
     - Development of the Hangman Game Program.
     - Object Oriented Programming 
     - Implemented input validation to ensure that user entries are appropriate and meet the required criteria.
+
+4. Exploratory Data Analysis with Python Applied to Retail
+    - Study of a real industry database
+    - Extraction of insights and creation of informative charts
 --------------------------------------
 
 **Programas Desenvolvidos nos Cursos de Python da DSA**
@@ -32,3 +36,7 @@
     - Desenvolvimento do programa para jogar Forca.
     - Programação Orientada a Objetvos
     - Inclusão de validação para os inputs do usuário, garantindo que as entradas sejam apropriadas.
+
+4. Análise Exploratória de Dados com Python Aplicada ao Varejo
+    - Estudo de um banco de dados real do setor
+    - Extração de insights e criação de gráficos informativos
