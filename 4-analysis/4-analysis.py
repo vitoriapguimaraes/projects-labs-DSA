@@ -64,7 +64,7 @@ print(f"\nPara conferir o resultado, segue a lista do maior para menor: \n{df_p1
 
 print("\nPergunta de Negócio 2")
 print("Qual o Total de Vendas Por Data do Pedido?")
-print("Demonstre o resultado através de um gráfico de barras.")
+print("Demonstre o resultado através de um gráfico de linha.")
 
 df_p2 = df.groupby("Data_Pedido")["Valor_Venda"].sum()
 print(f"\n>>> Total de Vendas por Data do Pedido (primeiras cinco linhas): <<<\n{df_p2.head()}")
