@@ -13,10 +13,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import datetime as dt
 
-
 ### Carregando os dados com pandas em Linguagem Python ###
 
-df = pd.read_csv("4-dados/dataset.csv")
+df = pd.read_csv("4-analysis/4-dados/dataset.csv")
 
 print(f"\nShape dos dados é {df.shape}")
 print("\nPrimeiras linhas dos dados:")
@@ -24,7 +23,7 @@ print(df.head())
 print("\nÚltimas linhas dos dados:")
 print(df.tail())
 
-caminho = (f'4-graficos')
+caminho = (f'4-analysis//4-graficos')
 
 ### Análise exploratória ###
 
@@ -163,7 +162,7 @@ print(f"\nGráfico da Pergunta 5 exportado para {caminho}.")
 
 
 print("\nPergunta de Negócio 6")
-print("Qual o Total de Vendas Por Segmento e Por Ano")
+print("Qual o Total de Vendas Por Segmento e Por Ano?")
 
 df['Ano'] = df['ID_Pedido'].str.split('-').str[1].astype(int)
 # Conferindo a nova coluna criada
@@ -241,12 +240,12 @@ print(f"\nO primeiro gráfico da Pergunta 9 exportado para {caminho}.")
 # figura 2
 df_p9_2 = df.groupby(['Segmento', 'Ano', 'Mes'])['Valor_Venda'].mean().reset_index()
 fig1 = sns.relplot(kind = 'line',
-                   data = df_p9_2, 
-                   y = 'Valor_Venda', 
-                   x = 'Mes',
-                   hue = 'Segmento', 
-                   col = 'Ano',
-                   col_wrap = 4)
+                data = df_p9_2, 
+                y = 'Valor_Venda', 
+                x = 'Mes',
+                hue = 'Segmento', 
+                col = 'Ano',
+                col_wrap = 4)
 fig1.set_axis_labels("Mês", "Média de Vendas (R$)") \
     .set_titles("Média de Vendas de {col_name} Por Segmento e Por Mês")
 plt.savefig(f"{caminho}/Pergunta 9-2")
@@ -272,17 +271,17 @@ cores_categorias = ['#5d00de',
                     '#0ee84f',
                     '#e80e27']
 cores_subcategorias = ['#aa8cd4',
-                       '#aa8cd5',
-                       '#aa8cd6',
-                       '#aa8cd7',
-                       '#26c957',
-                       '#26c958',
-                       '#26c959',
-                       '#26c960',
-                       '#e65e65',
-                       '#e65e66',
-                       '#e65e67',
-                       '#e65e68']
+                    '#aa8cd5',
+                    '#aa8cd6',
+                    '#aa8cd7',
+                    '#26c957',
+                    '#26c958',
+                    '#26c959',
+                    '#26c960',
+                    '#e65e65',
+                    '#e65e66',
+                    '#e65e67',
+                    '#e65e68']
 
 # Criando o gráfico de pizza
 fig, ax = plt.subplots(figsize=(16, 16))
