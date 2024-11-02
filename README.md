@@ -1,43 +1,42 @@
-**Programs Developed for the Python Courses at DSA**
+# Portfólio de Projetos: Python
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge)
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
-4. Exploratory Data Analysis with Python Applied to Retail
-    - Study of a real industry database
-    - Extraction of insights and creation of informative charts
+Este repositório contém uma coleção de projetos desenvolvidos em Python, que abrangem análise de dados, desenvolvimento de jogos e outras funcionalidades interativas. Cada projeto foi criado com o objetivo de explorar habilidades de programação e aplicar conceitos fundamentais de ciência de dados, manipulação de dados e programação orientada a objetos.
 
-3. Hangman Game, version with Object Oriented Programming (version 3)
-    - Development of the Hangman Game Program.
-    - Object Oriented Programming 
-    - Implemented input validation to ensure that user entries are appropriate and meet the required criteria.
+## Projetos
 
-2. Hangman Game
-    - Development of the Hangman Game Program.
-    - Implemented input validation to ensure that user entries are appropriate and meet the required criteria.
+### 1. Análise Exploratória de Dados com Python Aplicada ao Varejo
+<!-- [![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portfolio-projetos-web-Java/tree/master/Calculadora%20de%20m%C3%A9dia) -->
 
-1. Calculator
-    - Implementation of a calculator that performs addition, subtraction, multiplication, and division operations.
-    - Inclusion of input validation to ensure user entries are appropriate.
-    - Anticipation and handling of errors related to mathematical operations, providing a more robust and reliable experience.
-    - *Improvements to be made in version 2: Refactor the operations using functions + Include try, except, and finally blocks for error handling.*
+Análise de um banco de dados real do setor varejista para extração de insights comerciais e criação de gráficos informativos.
+- Tecnologias: Python, Pandas, Matplotlib, Jupyter Notebook
+- Funcionalidades:
+    - Análise exploratória e limpeza de dados.
+    - Criação de visualizações informativas para identificação de padrões e insights.
 
---------------------------------------
+### 2. Jogo da Forca
+[![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python/tree/main/Jogo%20da%20Forca)
 
-**Programas Desenvolvidos nos Cursos de Python da DSA**
+Uma versão orientada a objetos do clássico Jogo da Forca, desenvolvida em Python, com funcionalidades de validação de entradas e controle de tentativas do usuário.
+- Tecnologias:
+- Funcionalidades:
+    - Uso de classes para organizar o código e implementar a lógica do jogo.
+    - Implementação da lógica básica do Jogo da Forca.
+    - Validação de entradas do usuário, com feedback para tentativas incorretas e controle das tentativas restantes.
 
-4. Análise Exploratória de Dados com Python Aplicada ao Varejo
-    - Estudo de um banco de dados real do setor
-    - Extração de insights e criação de gráficos informativos
+### 3. Calculadora
+[![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python/tree/main/Calculadora)
 
-3. Jogo da Forca, versão com Programação Orientada a Objetos (versão 3)
-    - Desenvolvimento do programa para jogar Forca.
-    - Programação Orientada a Objetvos
-    - Inclusão de validação para os inputs do usuário, garantindo que as entradas sejam apropriadas.
+Uma calculadora simples que realiza operações básicas e oferece validação e tratamento de erros.
+- Tecnologias: Python
+- Funcionalidades:
+    - Operações básicas de soma, subtração, multiplicação e divisão.
+    - Validação das entradas e tratamento de erros.
+    - Melhorias previstas para a versão 2: uso de funções para as operações e implementação de tratamento de exceções com try, except e finally.
 
-2. Jogo da Forca
-    - Desenvolvimento do programa para jogar Forca.
-    - Inclusão de validação para os inputs do usuário, garantindo que as entradas sejam apropriadas.
+<hr>
 
-1. Calculadora
-    - Implementação de uma calculadora que realiza operações de soma, subtração, multiplicação e divisão.
-    - Inclusão de validação para os inputs do usuário, garantindo que as entradas sejam apropriadas.
-    - Previsão e tratamento de erros relacionados às operações matemáticas, proporcionando uma experiência mais robusta e confiável.
-    - *Melhorias a serem feitas na versao 2: Rescrever as operações usando funções + Incluir try, except e finally para erros.*
+Sinta-se à vontade para explorar os projetos, modificar o código e aprender com cada exemplo!
