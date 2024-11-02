@@ -15,7 +15,7 @@ import datetime as dt
 
 ### Carregando os dados com pandas em Linguagem Python ###
 
-df = pd.read_csv("4-analysis/4-dados/dataset.csv")
+df = pd.read_csv("Analise de Vendas/datafiles/dataset.csv")
 
 print(f"\nShape dos dados é {df.shape}")
 print("\nPrimeiras linhas dos dados:")
@@ -23,7 +23,7 @@ print(df.head())
 print("\nÚltimas linhas dos dados:")
 print(df.tail())
 
-caminho = (f'4-analysis//4-graficos')
+caminho = (f'Analise de Vendas/images')
 
 ### Análise exploratória ###
 
